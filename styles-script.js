@@ -48,7 +48,7 @@ timeBlockDivOneTwo.setAttribute(
 );
 timeBlockDivOneThree.setAttribute(
   'style',
-  'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left;'
+  'height:50px; background-color:#06aed5; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left;'
 );
 timeBlockDivOneThree.innerHTML = '<i class="fas fa-save"></i>';
 
@@ -64,7 +64,7 @@ timeBlockDivTwoTwo.setAttribute(
 );
 timeBlockDivTwoThree.setAttribute(
   'style',
-  'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left;'
+  'height:50px; background-color:#06aed5; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left;'
 );
 timeBlockDivTwoThree.innerHTML = '<i class="fas fa-save"></i>';
 
@@ -80,7 +80,7 @@ timeBlockDivThreeTwo.setAttribute(
 );
 timeBlockDivThreeThree.setAttribute(
   'style',
-  'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
+  'height:50px; background-color:#06aed5; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
 timeBlockDivThreeThree.innerHTML = '<i class="fas fa-save"></i>';
 
@@ -96,7 +96,7 @@ timeBlockDivFourTwo.setAttribute(
 );
 timeBlockDivFourThree.setAttribute(
   'style',
-  'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
+  'height:50px; background-color:#06aed5; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
 timeBlockDivFourThree.innerHTML = '<i class="fas fa-save"></i>';
 
@@ -112,7 +112,7 @@ timeBlockDivFiveTwo.setAttribute(
 );
 timeBlockDivFiveThree.setAttribute(
   'style',
-  'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
+  'height:50px; background-color:#06aed5; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
 timeBlockDivFiveThree.innerHTML = '<i class="fas fa-save"></i>';
 
@@ -128,7 +128,7 @@ timeBlockDivSixTwo.setAttribute(
 );
 timeBlockDivSixThree.setAttribute(
   'style',
-  'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
+  'height:50px; background-color:#06aed5; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
 timeBlockDivSixThree.innerHTML = '<i class="fas fa-save"></i>';
 
@@ -144,7 +144,7 @@ timeBlockDivSevenTwo.setAttribute(
 );
 timeBlockDivSevenThree.setAttribute(
   'style',
-  'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
+  'height:50px; background-color:#06aed5; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
 timeBlockDivSevenThree.innerHTML = '<i class="fas fa-save"></i>';
 
@@ -160,7 +160,7 @@ timeBlockDivEightTwo.setAttribute(
 );
 timeBlockDivEightThree.setAttribute(
   'style',
-  'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
+  'height:50px; background-color:#06aed5; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
 timeBlockDivEightThree.innerHTML = '<i class="fas fa-save"></i>';
 
@@ -176,7 +176,7 @@ timeBlockDivNineTwo.setAttribute(
 );
 timeBlockDivNineThree.setAttribute(
   'style',
-  'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: none'
+  'height:50px; background-color:#06aed5; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: none'
 );
 timeBlockDivNineThree.innerHTML = '<i class="fas fa-save"></i>';
 

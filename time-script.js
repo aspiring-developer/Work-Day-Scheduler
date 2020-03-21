@@ -16,12 +16,12 @@ setInterval(update, 1000);
 console.log("midDiv" + i); // Prints total 9 to 17 midDiv values
 		if(currentTime == i){
 		console.log('Found Current Time');
-	divEl.style.backgroundColor = '#EEF9BF';
+	divEl.style.backgroundColor = '#FF6961';
 	
 	}else if (currentTime > 18) {
 	divEl.style.backgroundColor = '#F6E5F5';
 	} else {
-	 divEl.style.backgroundColor = '#F7D695';	
+	 divEl.style.backgroundColor = '#77DD77';	
 		
 }
 };
