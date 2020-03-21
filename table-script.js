@@ -21,7 +21,7 @@ timeBlockColumnThree.setAttribute("id", "rightColHeader");
  	timeBlockDivOneTwo.setAttribute("id", "midDiv9");
  timeBlockDiv.appendChild(timeBlockDivOneTwo);
  var timeBlockDivOneThree = document.createElement('div');
- timeBlockDivOneThree.setAttribute("id", "rightDiv1");
+ timeBlockDivOneThree.setAttribute("class", "rightDiv");
 timeBlockDiv.appendChild(timeBlockDivOneThree);
 
  // ===== Creating input field in row-1 mid field 
@@ -38,7 +38,7 @@ timeBlockDiv.appendChild(timeBlockDivTwoTwo);
 timeBlockDivTwoTwo.setAttribute("id", "midDiv10");
 var timeBlockDivTwoThree = document.createElement('div');
 timeBlockDiv.appendChild(timeBlockDivTwoThree);
-timeBlockDivTwoThree.setAttribute("id", "rightDiv2");
+timeBlockDivTwoThree.setAttribute("class", "rightDiv");
 
  // ===== Creating input field in row-2 mid field 
  var inputFieldTwo = document.createElement('input');
@@ -54,7 +54,7 @@ timeBlockDiv.appendChild(timeBlockDivThreeTwo);
 timeBlockDivThreeTwo.setAttribute("id", "midDiv11");
 var timeBlockDivThreeThree = document.createElement('div');
 timeBlockDiv.appendChild(timeBlockDivThreeThree);
-timeBlockDivThreeThree.setAttribute("id", "rightDiv3");
+timeBlockDivThreeThree.setAttribute("class", "rightDiv");
 
 // ===== Creating input field in row-3 mid field 
 var inputFieldThree = document.createElement('input');
@@ -70,7 +70,7 @@ timeBlockDiv.appendChild(timeBlockDivFourTwo);
 timeBlockDivFourTwo.setAttribute("id", "midDiv12");
 var timeBlockDivFourThree = document.createElement('div');
 timeBlockDiv.appendChild(timeBlockDivFourThree);
-timeBlockDivFourThree.setAttribute("id", "rightDiv4");
+timeBlockDivFourThree.setAttribute("class", "rightDiv");
 
 // ===== Creating input field in row-4 mid field 
 var inputFieldFour = document.createElement('input');
@@ -86,7 +86,7 @@ timeBlockDiv.appendChild(timeBlockDivFiveTwo);
 timeBlockDivFiveTwo.setAttribute("id", "midDiv13");
 var timeBlockDivFiveThree = document.createElement('div');
 timeBlockDiv.appendChild(timeBlockDivFiveThree);
-timeBlockDivFiveThree.setAttribute("id", "rightDiv5");
+timeBlockDivFiveThree.setAttribute("class", "rightDiv");
 
 // ===== Creating input field in row-5 mid field 
 var inputFieldFive = document.createElement('input');
@@ -102,7 +102,7 @@ timeBlockDiv.appendChild(timeBlockDivSixTwo);
 timeBlockDivSixTwo.setAttribute("id", "midDiv14");
 var timeBlockDivSixThree = document.createElement('div');
 timeBlockDiv.appendChild(timeBlockDivSixThree);
-timeBlockDivSixThree.setAttribute("id", "rightDiv6");
+timeBlockDivSixThree.setAttribute("class", "rightDiv");
 
 // ===== Creating input field in row-6 mid field 
 var inputFieldSix = document.createElement('input');
@@ -118,7 +118,7 @@ timeBlockDiv.appendChild(timeBlockDivSevenTwo);
 timeBlockDivSevenTwo.setAttribute("id", "midDiv15");
 var timeBlockDivSevenThree = document.createElement('div');
 timeBlockDiv.appendChild(timeBlockDivSevenThree);
-timeBlockDivSevenThree.setAttribute("id", "rightDiv7");
+timeBlockDivSevenThree.setAttribute("class", "rightDiv");
 
 // ===== Creating input field in row-7 mid field 
 var inputFieldSeven = document.createElement('input');
@@ -134,7 +134,7 @@ timeBlockDiv.appendChild(timeBlockDivEightTwo);
 timeBlockDivEightTwo.setAttribute("id", "midDiv16");
 var timeBlockDivEightThree = document.createElement('div');
 timeBlockDiv.appendChild(timeBlockDivEightThree);
-timeBlockDivEightThree.setAttribute("id", "rightDiv8");
+timeBlockDivEightThree.setAttribute("class", "rightDiv");
 
 // ===== Creating input field in row-8 mid field 
 var inputFieldEight = document.createElement('input');
@@ -150,7 +150,7 @@ timeBlockDiv.appendChild(timeBlockDivNineTwo);
 timeBlockDivNineTwo.setAttribute("id", "midDiv17");
 var timeBlockDivNineThree = document.createElement('div');
 timeBlockDiv.appendChild(timeBlockDivNineThree);
-timeBlockDivNineThree.setAttribute("id", "rightDiv9");
+timeBlockDivNineThree.setAttribute("class", "rightDiv");
 
 // ===== Creating input field in row-9 mid field 
 var inputFieldNine = document.createElement('input');
