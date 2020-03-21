@@ -1,22 +1,42 @@
+$(document).ready(function() {	// This function is a "wrapper function" for jQuery use //
 // Getting DOM element references to style main header, clock display and footer
 var currentDayEl = document.getElementById('currentDay');
 var jumbotronHeaderEl = document.getElementById('jumbotronHeader');
 var footerEl = document.getElementById('footerDiv');
+leftColHeaderEl = document.getElementById('leftColHeader');
+midColHeaderEl = document.getElementById('midColHeader');
+rightColHeaderEl = document.getElementById('rightColHeader');
 // Styling main header, clock display and footer
 currentDayEl.setAttribute(
 'style',
-'text-transform: uppercase; font-weight: bold; font-size: 1.5rem; color: #1dbec4'
+'text-transform: uppercase; font-weight: bold; font-size: 1.2rem; color: #1dbec4'
 );
 jumbotronHeaderEl.setAttribute(
 'style',
-'text-transform: uppercase; font-weight: bold; font-size: 4rem; text-shadow: 2px 2px 8px #4f7c5e; color: #0f394f'
+'text-transform: uppercase; font-weight: bold; font-size: 4rem; text-shadow: 2px 2px 8px #4f7c5e; color: #0f394f; '
 );
-// footerEl.setAttribute =
-// ('style', 'justify-content: center; align-items: center; color: red; text-align: center');
+footerEl.setAttribute
+ ('style', 'justify-content: center; padding: 1.5rem; margin-top: 1rem;background-color: #d9ddd9; color: #666; text-align:center; font-size: .9rem; align-items: center; text-align: center');
+ // Styling column headers
+ leftColHeaderEl.setAttribute(
+  'style',
+  'height:50px; background-color:#3b6978; color:#F7D695; width:15%; border-top-left-radius:10px; border-bottom-left-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
+);
+leftColHeaderEl.innerHTML = 'Time';
 
-// var allLeftDivEl = document.querySelectorAll(".leftDiv");
-// allLeftDivEl.setAttribute('style', 'height:50px; background-color:#fafafa; width:15%');
+midColHeaderEl.setAttribute(
+  'style',
+  'height:50px; background-color:#3b6978; color:#F7D695; width:70%; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
+);
+midColHeaderEl.innerHTML = 'Notes / Description';
 
+rightColHeaderEl.setAttribute(
+  'style',
+  'height:50px; background-color:#3b6978; color:#F7D695; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: none'
+);
+rightColHeaderEl.innerHTML = 'Save &nbsp; <i class="fas fa-arrow-down"></i>';
+
+// Styling column body elements (time, text field and save button)
 timeBlockDivOneOne.setAttribute(
   'style',
   'height:50px; background-color:#fafafa; width:15%; border-top-left-radius:10px; border-bottom-left-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
@@ -30,7 +50,7 @@ timeBlockDivOneThree.setAttribute(
   'style',
   'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
-timeBlockDivOneThree.innerHTML = '<i class="fas fa-lock"></i>';
+timeBlockDivOneThree.innerHTML = '<i class="fas fa-save"></i>';
 
 // ===== Styling three divs in row-2 ===== //
 timeBlockDivTwoOne.setAttribute(
@@ -46,7 +66,7 @@ timeBlockDivTwoThree.setAttribute(
   'style',
   'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
-timeBlockDivTwoThree.innerHTML = '<i class="fas fa-lock"></i>';
+timeBlockDivTwoThree.innerHTML = '<i class="fas fa-save"></i>';
 
 // ===== Styling three divs in row-3 ===== //
 timeBlockDivThreeOne.setAttribute(
@@ -62,7 +82,7 @@ timeBlockDivThreeThree.setAttribute(
   'style',
   'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
-timeBlockDivThreeThree.innerHTML = '<i class="fas fa-lock"></i>';
+timeBlockDivThreeThree.innerHTML = '<i class="fas fa-save"></i>';
 
 // ===== Styling three divs in row-4 ===== //
 timeBlockDivFourOne.setAttribute(
@@ -78,7 +98,7 @@ timeBlockDivFourThree.setAttribute(
   'style',
   'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
-timeBlockDivFourThree.innerHTML = '<i class="fas fa-lock"></i>';
+timeBlockDivFourThree.innerHTML = '<i class="fas fa-save"></i>';
 
 // ===== Styling three divs in row-5 ===== //
 timeBlockDivFiveOne.setAttribute(
@@ -94,7 +114,7 @@ timeBlockDivFiveThree.setAttribute(
   'style',
   'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
-timeBlockDivFiveThree.innerHTML = '<i class="fas fa-lock"></i>';
+timeBlockDivFiveThree.innerHTML = '<i class="fas fa-save"></i>';
 
 // ===== Styling three divs in row-6 ===== //
 timeBlockDivSixOne.setAttribute(
@@ -110,7 +130,7 @@ timeBlockDivSixThree.setAttribute(
   'style',
   'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
-timeBlockDivSixThree.innerHTML = '<i class="fas fa-lock"></i>';
+timeBlockDivSixThree.innerHTML = '<i class="fas fa-save"></i>';
 
 // ===== Styling three divs in row-7 ===== //
 timeBlockDivSevenOne.setAttribute(
@@ -126,7 +146,7 @@ timeBlockDivSevenThree.setAttribute(
   'style',
   'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
-timeBlockDivSevenThree.innerHTML = '<i class="fas fa-lock"></i>';
+timeBlockDivSevenThree.innerHTML = '<i class="fas fa-save"></i>';
 
 // ===== Styling three divs in row-8 ===== //
 timeBlockDivEightOne.setAttribute(
@@ -142,7 +162,7 @@ timeBlockDivEightThree.setAttribute(
   'style',
   'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left'
 );
-timeBlockDivEightThree.innerHTML = '<i class="fas fa-lock"></i>';
+timeBlockDivEightThree.innerHTML = '<i class="fas fa-save"></i>';
 
 // ===== Styling three divs in row-9 ===== //
 timeBlockDivNineOne.setAttribute(
@@ -158,4 +178,18 @@ timeBlockDivNineThree.setAttribute(
   'style',
   'height:50px; background-color:#1dbec4; color: white; width:15%; border-top-right-radius:10px; border-bottom-right-radius:10px; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: none'
 );
-timeBlockDivNineThree.innerHTML = '<i class="fas fa-lock"></i>';
+timeBlockDivNineThree.innerHTML = '<i class="fas fa-save"></i>';
+
+// #############  Styling Input Fields  ##############
+inputFieldOne.setAttribute("style", "background-color:transparent; height: 50px; width: 90%; border: none; outline: none; padding-left: 1rem;");
+inputFieldTwo.setAttribute("style", "background-color:transparent; height: 50px; width: 90%; border: none; outline: none; padding-left: 1rem;");
+inputFieldThree.setAttribute("style", "background-color:transparent; height: 50px; width: 90%; border: none; outline: none; padding-left: 1rem;");
+inputFieldFour.setAttribute("style", "background-color:transparent; height: 50px; width: 90%; border: none; outline: none; padding-left: 1rem;");
+inputFieldFive.setAttribute("style", "background-color:transparent; height: 50px; width: 90%; border: none; outline: none; padding-left: 1rem;");
+inputFieldSix.setAttribute("style", "background-color:transparent; height: 50px; width: 90%; border: none; outline: none; padding-left: 1rem;");
+inputFieldSeven.setAttribute("style", "background-color:transparent; height: 50px; width: 90%; border: none; outline: none; padding-left: 1rem;");
+inputFieldEight.setAttribute("style", "background-color:transparent; height: 50px; width: 90%; border: none; outline: none; padding-left: 1rem;");
+inputFieldNine.setAttribute("style", "background-color:transparent; height: 50px; width: 90%; border: none; outline: none; padding-left: 1rem;");
+
+
+}); // "wrapper function" ending
