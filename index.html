@@ -14,11 +14,15 @@
 
 <body>
   <header class="jumbotron">
-    <h1 class="display-3" id="jumbotronHeader">Work Day Scheduler</h1>
+    <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
     <div id="currentDay" class="currentDay">Please wait a moment...</div>
   </header>
-  <div class="container">
+  
+  <div id='timeBlock' class="container">
+    <div id="leftColHeader"> Time </div>
+  <div id="midColHeader"> Notes / Description </div>
+  <div id="rightColHeader"> Save &nbsp; <i class="fas fa-arrow-down"></i> </div>
     <!-- Timeblocks go here -->
   </div>
     <div id="footerDiv">
@@ -27,9 +31,7 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/luxon@1.22.0/build/global/luxon.min.js"></script>
-  <script src="table-script.js"></script>
-  <script src="styles-script.js"></script>
-  <script src="time-script.js"></script>
+  <script src="script.js"></script>
   
 </body>
 
