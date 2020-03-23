@@ -9,9 +9,14 @@ $(document).ready(function() {
 
 	// ########## TIMER - 2: ########## Times:left div, Changes: mid div, Saves: right div
 		var currentTime = moment().format('H');
-	// console.log(currentTime); // Prints the current time in hour
 // ===== Looping through 9am to 17pm ===== //
 	for (i = 9; i < 18; i++) {
+		//var inputValue = localStorage.getItem('time'+i) || ''  // Grab value from local storage. The two pipes || are not OR here, they are short circuit js --- Leaving this as a learning reference for future!
+var inputValue = localStorage.getItem('time'+i); 
+			if(!inputValue){
+			inputValue = '';
+		}
+
 		makeRow(i);
 		var divEl = document.getElementById('midDiv' + i);
 		console.log('midDiv' + i); // Prints total 9 to 17 midDiv values
@@ -38,7 +43,7 @@ $(document).ready(function() {
 		   ${i > 12 ? i + ':00PM' : i + ':00AM'} 
 		</div>
 		<div id="midDiv${i}" class="midDivs">
-		   <input id="inputField${i}" class="inputBoxes">
+		   <input id="inputField${i}" class="inputBoxes" value='${inputValue}'>
 		</div>
 			`;
 
@@ -51,8 +56,9 @@ $(document).ready(function() {
 		`;
 		
 		saveButton.addEventListener('click', function(e) {
-			//console.log(e.target.getAttribute('value'));
-					var inputValue = document.getElementById('inputField' + i).value;
+				var inputValue = document.getElementById('inputField' + i).value;
+				
+				localStorage.setItem('time'+i, inputValue);
 			});
 		rowEl.appendChild(saveButton);
 	}
