@@ -6,4 +6,4 @@ This is a workday scheduler created by using Javascript and jQuery.
 - The code worked, but there was more than 200 lines of codes that did not make me happy, so with my tutor's help I was able to shortened the codes. The tutor asked me to use loops and functions to do so. By using the tutor, I learned many things necessary for Javascript coding.
 - Finally, I am happy with the final result. 
 
-The Link to deployed page: https://ssh1sharma.github.io/5th-Work-Day-Scheduler/
+The Link to deployed page: https://ssh1sharma.github.io/Work-Day-Scheduler/
