@@ -12,7 +12,7 @@ This is a Javascript and jQuery based app that helps create a daily schedule. Mo
 ### A Screenshot of the App:
 `.....................`
 
-![Daily Planner App Screenshot Image](https://github.com/ssh1sharma/Work-Day-Scheduler/blob/master/work-day-scheduler-screen.JPG)
+![Daily Planner App Screenshot Image](https://github.com/ssh1sharma/Work-Day-Scheduler/blob/master/work-day-screenshot.JPG)
 
 
 - https://ssh1sharma.github.io/Work-Day-Scheduler/

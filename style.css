@@ -4,11 +4,12 @@ body {
   line-height: 1;
   background-color: #f6f5f5;
 }
+
 #currentDay {
-text-transform: uppercase; 
-font-weight: bold; 
-font-size: 1.2rem; 
-color: #1dbec4;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #1dbec4;
 }
 
 .jumbotron {
@@ -18,19 +19,20 @@ color: #1dbec4;
   border-radius: 0;
   border-bottom: 10px solid black;
 }
+
 .jumbotron h1 {
-  text-transform: uppercase; 
-  font-weight: bold; 
-  font-size: 4rem; 
-  text-shadow: 2px 2px 8px #4f7c5e; 
-  color: #0f394f; 
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 4rem;
+  text-shadow: 2px 2px 8px #4f7c5e;
+  color: #0f394f;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
@@ -38,94 +40,107 @@ color: #1dbec4;
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
+  ;
 }
+
 .rightDiv:hover {
   font-size: 40px;
   transition: all .3s ease-in-out;
 }
-.leftDivs {
-  height:50px; 
-  background-color:#fafafa; 
-  width:15%; 
-  border-top-left-radius:10px; 
-  border-bottom-left-radius:10px; 
-  display: flex; 
-  justify-content:center; 
-  align-items:center;
-  border:1px solid #a0b7db; 
-  float: left;
-}
-.midDivs {
-  height: 50px; 
-  background-color: #77dd77; 
-  width: 70%; 
-  border: 1px solid #a0b7db; 
-  float: left;
 
+.leftDivs {
+  height: 50px;
+  background-color: #fafafa;
+  width: 15%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a0b7db;
+  float: left;
 }
+
+.midDivs {
+  height: 50px;
+  background-color: #77dd77;
+  width: 70%;
+  border: 1px solid #a0b7db;
+  float: left;
+}
+
 .inputBoxes {
-  background-color:transparent; 
-  height: 50px; 
-  width: 90%; 
-  border: none; 
-  outline: none; 
+  background-color: transparent;
+  height: 50px;
+  width: 90%;
+  border: none;
+  outline: none;
   padding-left: 1rem;
 }
 
 .rightDiv {
-height:50px; 
-background-color:#06aed5; 
-color: white; 
-width:15%; 
-border-top-right-radius:10px; 
-border-bottom-right-radius:10px; 
-display: flex; 
-justify-content:center; 
-align-items:center; 
-border:1px solid #a0b7db; 
-float: none;
-} 
-
+  height: 50px;
+  background-color: #06aed5;
+  color: white;
+  width: 15%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a0b7db;
+  float: none;
+}
 
 #footerDiv {
-justify-content: center; 
-padding: 1.5rem; 
-margin-top: 1rem;
-background-color: #d9ddd9; 
-color: #666; 
-text-align:center; 
-font-size: .9rem; 
-align-items: center; 
-text-align: center;
+  justify-content: center;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  background-color: #d9ddd9;
+  color: #666;
+  text-align: center;
+  font-size: .9rem;
+  align-items: center;
+  text-align: center;
 }
 
 #leftColHeader {
-  height:50px; 
-  background-color:#3b6978; 
-  color:#F7D695; 
-  width:15%; 
-  border-top-left-radius:10px; 
-  border-bottom-left-radius:10px; 
-  display: flex; 
-  justify-content:center; 
-  align-items:center; 
-  border:1px solid #a0b7db; 
+  height: 50px;
+  background-color: #3b6978;
+  color: #F7D695;
+  width: 15%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a0b7db;
   float: left
 }
-#midColHeader {
-  height:50px; background-color:#3b6978; color:#F7D695; width:70%; display: flex; justify-content:center; align-items:center; border:1px solid #a0b7db; float: left;
 
+#midColHeader {
+  height: 50px;
+  background-color: #3b6978;
+  color: #F7D695;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a0b7db;
+  float: left;
 }
 
 #rightColHeader {
-  height:50px; 
-  background-color:#3b6978; 
-  color:#F7D695; width:15%; 
-  border-top-right-radius:10px; 
-  border-bottom-right-radius:10px; 
-  display: flex; 
-  justify-content:center; 
-  align-items:center; border:1px solid #a0b7db; 
+  height: 50px;
+  background-color: #3b6978;
+  color: #F7D695;
+  width: 15%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a0b7db;
   float: none
 }
